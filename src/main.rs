@@ -1,13 +1,22 @@
-// mod for_loops;
-mod match_cases;
-// mod loop_funct;
-// mod while_funct;
+// mod enums;
+// mod structs;
+// mod some_if_let;
+// mod unions;
+// mod arrays;
+// mod matrix;
+// mod slices;
+// mod match_string;
+// mod tuples;
+mod match_string;
 
 fn main() {
-    // while_funct::while_loop();
-    // loop_funct::loop_call();
-    // for_loops::for_call();
-    // for_loops::loop_with_args_call();
-
-    match_cases::match_case_call();
+    // structs::structs();
+    // enums::enums();
+    // unions::sample_call();
+    // some_if_let::some_code();
+    // arrays::array_call();
+    // matrix::matris_call();
+    // slices::slice_call();
+    // tuples::tuple_call();
+    match_string::matchstring_call();
 }
